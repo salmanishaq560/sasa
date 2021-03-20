@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/event/</loc>
+  </url>
+  
+  <url>
+    <loc>/founder-mission/</loc>
+  </url>
+  
+  <url>
+    <loc>/founders-profiles/</loc>
+  </url>
+  
+  <url>
+    <loc>/press/</loc>
+  </url>
+  
+  <url>
+    <loc>/reading/</loc>
+  </url>
+  
+  <url>
+    <loc>/seminar-library/</loc>
+  </url>
+  
+  <url>
+    <loc>/stoic-wellness/</loc>
+  </url>
+  
+  <url>
+    <loc>/stoics-in-action/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/event/event1/</loc>
+  </url>
+  
+  <url>
+    <loc>/event/event2/</loc>
+  </url>
+  
+</urlset>

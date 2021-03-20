@@ -1,0 +1,176 @@
+@media(max-width: 1024px){
+    .nav-item a {
+    font-size: 14px;
+}
+img.hero-logo{
+    width: 100%;
+}
+}
+@media(max-width: 990px){
+.marcus-txt, .journel-txt{
+    padding-top: 20px;
+}
+.empty-sec{
+    display: none;
+}
+.approch-content{
+    padding: 0px;
+}
+.divider-right, .divider-left{
+    margin: 0;
+}
+.order-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+}
+.approch-fst-row {
+    margin-top: 50px;
+}
+.our-approch-sec {
+    padding: 50px 0px 0px;
+}
+.founding-member-width .col-lg-6 {
+    width: 50%;
+}
+.advisor-row .col-lg-4, .advisor-row-2 .col-lg-4 {
+    width: 33%;
+}
+.advisor-details img, .member-details img {
+    width: 100%;
+}
+.member-details h3 {
+    font-size: 20px;
+}
+.member-details p {
+    font-size: 16px;
+    line-height: 1.6em;
+}
+.wellness-divider {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.wellness-btn {
+    width: 50%;
+}
+}
+@media(max-width: 768px){
+.founder-title h1, .vision-title h1, h1.approch-title, .founding-member-title h1, .founding-members-title h1, .reading-title h1, .wellness-title h1, .title-text h1 {
+    font-size: 40px;
+}
+}
+@media(max-width: 767px){
+.navbar .container {
+    max-width: 650px !important;
+}
+.advisor-row .col-lg-4, .advisor-row-2 .col-lg-4 {
+    width: 50%;
+}
+.video-row{
+    justify-content: center;
+}
+.founder-video {
+    text-align: center;
+}
+.wellness-btn {
+    width: 100%;
+}
+.stoic-contact-btn {
+    margin-top: 50px;
+}
+.stoic-wellness-sec {
+    padding: 50px 0px;
+}
+.subscribe form {
+    width: 100%;
+}
+.subscribe button.subscribe-btn {
+    padding: .8em 2.5em;
+}
+}
+@media(max-width: 670px){
+.navbar .container {
+    max-width: 550px !important;
+}
+}
+@media(max-width: 570px){
+.vision-txt p.blue-bg {
+    padding: 30px;
+}
+.vision-content hr, .vision-txt hr {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.vision-txt p {
+    font-size: 20px;
+}
+.approch-txt {
+    padding: 30px;
+}
+}
+@media(max-width: 575px){
+    img.hero-logo{
+    width: 90%;
+}
+}
+@media(max-width: 480px){
+.subscribe button.subscribe-btn {
+    margin-top: 4px;
+}
+}
+@media(max-width: 414px){
+.founder-title h1, .vision-title h1, h1.approch-title, .founding-member-title h1, .founding-members-title h1, .reading-title h1, .wellness-title h1, .title-text h1 {
+    font-size: 30px;
+}
+.approch-txt {
+    padding: 30px 0px;
+}
+.approch-txt h3 {
+    font-size: 22px;
+}
+a.navbar-brand-logo {
+    font-size: 25px;
+    line-height: 26px;
+}
+.subscribe form input[type=text], .subscribe button.subscribe-btn {
+    width: 100%;
+}
+.wellness-divider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+}
+@media(max-width: 375px){
+.marcus-txt, .journel-txt {
+    padding: 20px 20px 0px;
+}
+.founding-member-width .col-lg-6, .advisor-row .col-lg-4, .advisor-row-2 .col-lg-4 {
+    width: 100%;
+}
+}
+@media(max-width: 320px){
+    .founder-title h1, .vision-title h1, h1.approch-title, .founding-member-title h1, .founding-members-title h1, .reading-title h1, .wellness-title h1, .title-text h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .footer-bottom-txt p, .footer-bottom-txt a {
+        font-size: 22px;
+    }
+    .footer-bottom {
+        padding: 50px 0px;
+    }
+}
+
+@media(max-width: 767px){
+.event-list .col-md-7 {
+    padding-top: 30px;
+}
+}
+
+@media(max-width: 767px){
+.event-single .col-md-4 {
+    margin: 0 12px 12px 12px; 
+}
+}

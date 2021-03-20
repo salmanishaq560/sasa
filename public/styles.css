@@ -1,0 +1,1085 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: 'Brandon_reg';
+    src: url(assets/css/fonts/Brandon_reg.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'brandon-grotesque-regular';
+    src: url(assets/css/fonts/brandon-grotesque-regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Brandon_med';
+    src: url(assets/css/fonts/Brandon_med.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Brandon_bold';
+    src: url(assets/css/fonts/Brandon_bld.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url(assets/css/fonts/ProximaNova-Regular.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SortsMillGoudy-Regular';
+    src: url(assets/css/fonts/SortsMillGoudy-Regular.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+.navbar {
+    background: #0e4574!important;
+    padding: 20px 0px !important;
+}
+.nav-item a {
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: 'Brandon_reg';
+}
+.navbar-nav li {
+    padding: 0px 10px;
+}
+.dropdown-menu.show {
+    background: #333;
+}
+.dropdown-item:active {
+    color: #333;
+    text-decoration: none;
+    background-color: #fff;
+    outline: none;
+}
+a.navbar-brand-logo {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+}
+a.navbar-brand-logo:hover{
+    text-decoration: none;
+}
+.navbar-nav:hover> .dropdown-menu{
+    display: block;
+}
+.navbar-toggler-icon{
+    background: url("/images/Hamburger_icon.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+.navbar-toggler{
+    background-color: #ffffff !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+.show .navbar-nav {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #333;
+}
+.show .navbar-nav li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.hero-section {
+    background: #0e4574;
+    padding: 50px 0px;
+}
+img.hero-logo {
+    margin: 0 auto;
+}
+.events-img img {
+    width: 100%;
+}
+.upcoming-events {
+    padding: 50px 0px;
+}
+.upcoming-events-title h2 {
+    font-size: 25px;
+    color: #4e4e56;
+    font-family: 'Brandon_reg';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.upcoming-events-title span {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 0.5px;
+    font-family: 'ProximaNova-Regular';
+}
+.upcoming-events-title {
+    margin-bottom: 20px;
+}
+.event-title h1 {
+    font-size: 20px;
+    color: #666;
+    font-family: 'ProximaNova-Regular';
+    padding-top: 20px;
+}
+.event-title a:hover {
+    text-decoration: none !important;
+}
+.event-title h1:hover {
+    color: #0e4574;
+}
+.event-full-date span {
+    font-size: 13px;
+    font-family: ff-tisa-web-pro;
+    color: rgba(26,26,26,.4);
+}
+.event-row {
+    padding-bottom: 50px;
+}
+.founder-title h1, .vision-title h1, h1.approch-title, .founding-members-title h1, .reading-title h1, .wellness-title h1, .title-text h1 {
+    font-family: 'Brandon_reg';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: .5px;
+    line-height: 1.2em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4e4e56;
+    text-transform: uppercase;
+}
+
+.founder-title hr, .vision-title hr, .approc-inner hr {
+    width: 60%;
+}
+.video-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.founder-video h4 {
+    font-family: ff-tisa-web-pro;
+    font-weight: 700 !important;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+    margin-top: 8px;
+}
+.founder-video p {
+    font-family: ff-tisa-web-pro;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+    margin-top: 8px;
+}
+.video-row a {
+    font-family: ff-tisa-web-pro;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #0d4372;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.vision-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.vision-content img {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+}
+.vision-content hr, .vision-txt hr {
+    border-top: 20px solid #68a8db;
+    margin: 40px 0px;
+}
+.vision-txt {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.vision-txt strong {
+    font-weight: 700;
+}
+.vision-txt p.blue-bg {
+    background: #0e4574;
+    color: #fff;
+    padding: 30px 0px;
+}
+.vision-txt p {
+    font-family: ff-tisa-web-pro;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: .5px;
+    text-transform: none;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 20px;
+}
+.our-vision-sec, .founding-members-sec {
+    background: #f0f0f5;
+    padding: 50px 0px;
+}
+.vision-txt .stoicism-btn {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-family: 'Brandon_reg';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    padding: 18px 0px;
+    color: #4e4e56;
+}
+.vision-txt .stoicism-btn:hover, .vision-txt button:focus{
+    background-color: rgba(104,168,219,0.5);
+    outline: none;
+}
+.vision-txt .show p {
+    font-family: ff-tisa-web-pro;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: .5px;
+    text-transform: none;
+    line-height: 1.4em;
+    color: #4e4e56;
+}
+.vision-txt .show {
+    background: #fff;
+}
+.vision-txt button.collapsed {
+    background: transparent;
+}
+.marcus-words {
+    width: 90%;
+    margin: 0 auto;
+}
+.marcus-words h2 {
+    text-align: center;
+    font-family: 'Brandon_reg';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    margin-bottom: 40px;
+}
+.marcus-txt, .journel-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+}
+.marcus-txt p, .journel-txt p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.65em;
+    color: #4e4e56;
+    font-family: Sorts Mill Goudy;
+    font-weight: 300;
+}
+.marcus-txt .fa, .journel-txt .fa {
+    color: #bfbfc5;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.marcus-txt span {
+    font-size: 18px;
+    padding-top: 1em;
+    opacity: .5;
+    text-align: center;
+    font-family: Sorts Mill Goudy;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.65em;
+    color: #4e4e56;
+}
+.our-approch-sec {
+    padding: 50px 0px;
+}
+.approc-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+.divider-left {
+    background-color: #68a8db;
+    height: 20px;
+    width: 80%;
+    margin: 40px 0px;
+}
+.approch-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.approch-txt p {
+    text-align: center;
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.5em;
+    color: rgba(0,0,0,.68);
+    font-size: 20px;
+}
+.approch-txt h3 {
+    font-size: 26px;
+    color: #0d4372;
+    font-family: 'Brandon_reg';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+.empty-sec {
+    height: 35px;
+    width: 100%;
+}
+.approch-content {
+    padding-bottom: 50px;
+}
+.divider-right {
+    background-color: #68a8db;
+    height: 20px;
+    width: 80%;
+    margin: 40px 0px;
+    position: relative;
+    left: 22%;
+}
+.founding-member-width {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.member-divider {
+    background-color: #68a8db;
+    height: 20px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.member-details {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.founding-members-title hr{
+    width: 70%
+}
+.member-details a {
+    text-decoration: none;
+}
+.member-details img {
+    margin-bottom: 20px;
+}
+.member-details h3 {
+    font-family: 'Brandon_reg';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    color: #4e4e56;
+}
+.member-details p {
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+    text-transform: capitalize;
+}
+.member-details span {
+    color: #0e4574;
+    font-weight: bold;
+}
+.member-break-line {
+    background: #ccc;
+    height: 1px;
+    width: 90%;
+    margin: 0 auto;
+}
+.foundation-advisor-width {
+    padding-top: 50px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.foundation-advisor-title h1 {
+    font-family: 'Brandon_reg';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    text-align: center;
+    color: #4e4e56;
+}
+.advisor-row, .btn-row {
+    margin-top: 50px;
+}
+.contributer-divider {
+    background-color: #68a8db;
+    height: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.reading-hero {
+    padding: 50px 0px;
+    text-align: center;
+}
+.reading-title hr {
+    width: 65%;
+}
+.reading-section {
+    padding-top: 50px;
+}
+.reading-section h4 {
+    font-weight: 500;
+    font-family: 'Brandon_reg';
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+.reading-section a {
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #0d4372;
+    line-height: 1.6em;
+}
+.reading-section a:hover {
+    text-decoration: none;
+}
+.reading-section p{
+    margin-bottom: 0px;
+}
+.suggested-reading-sec {
+    padding: 50px 0px;
+    background: #f0f0f5;
+}
+.suggested-reading-title, .wellness-btn {
+    text-align: center;
+}
+.suggested-reading-title h4 {
+    font-size: 25px;
+    color: #4e4e56;
+    font-family: 'Brandon_reg';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.suggested-reading-title hr {
+    margin: 50px 0px;
+}
+
+/*------ light Box Gallery ---*/
+
+
+.modal button.close {
+  right: 0;
+  outline: 0;
+}
+  
+#gallery-lightbox img {
+  height: 450px;
+  object-fit: cover;
+  cursor: pointer;
+  max-width: 80%;
+}
+
+#gallery-lightbox img:hover {
+  opacity: 0.9;
+  transition: 0.5s ease-out;
+}
+.d-block{
+    width: 50% !important;
+    margin: 0 auto !important;
+}
+.p-0 {
+    padding: 10px !important;
+    text-align: center;
+}
+.modal-content{
+    border: none;
+}
+.p-0 p {
+    font-size: 14px;
+    margin-top: .5em;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    color: #4e4e56;
+}
+.announcements-txt p {
+    font-size: 18px;
+    color: #4e4e56;
+    font-weight: 700;
+    font-family: ff-tisa-web-pro;
+}
+.additional-suggested-reading-sec {
+    padding: 50px 0px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+input[type=text] {
+    
+    padding: 12px 20px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    outline: none;
+    width: 40%;
+    height:20%;
+    background: #fff;
+    border:1px solid #ccc;
+    position: relative;
+    top: 3px;
+    font-family: ff-tisa-web-pro;
+}
+input[type=text]:hover {
+    border:1px solid #ccc;
+    transition: 6s;
+}
+::placeholder { 
+    color: #ccc;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    font-family: ff-tisa-web-pro;
+}
+.subscribe button.subscribe-btn{
+    padding: 0;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+    color: #fff;
+    background-color: #66a6db;
+    border: 1px solid #66a6db !important;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: ff-tisa-web-pro;
+    
+}
+.subscribe-sec {
+    padding: 50px 0px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.subscribe h4 {
+    margin: 0 0 17px 0;
+    padding: 0;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.2em;
+    text-align: inherit;
+    font-family: 'Brandon_reg';
+    font-weight: 500;
+}
+.subscribe p {
+    margin: 17px 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.6em;
+    font-family: ff-tisa-web-pro;
+}
+.subscribe span {
+    font-weight: 600;
+}
+.subscribe form {
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-social p {
+    opacity: .8;
+    margin: 17px 0;
+    font-size: 12px !important;
+    line-height: normal;
+    font-family: ff-tisa-web-pro;
+    padding-bottom: 30px;
+}
+.footer-social {
+    padding-top: 30px;
+}
+.footer-bottom {
+    padding: 80px 0px;
+    background: #0d4372;
+    text-align: center;
+}
+.footer-bottom-txt p, .footer-bottom-txt a {
+    color: rgba(255,255,255,.4);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    font-family: 'Brandon_reg';
+}
+.footer-bottom-txt a{
+    border-bottom: 1px solid rgba(255,255,255,.4);
+}
+.footer-bottom-txt a:hover{
+    text-decoration: none;
+}
+.stoic-wellness-sec {
+    padding: 50px 0px 100px;
+}
+.wellness-title h1{
+    margin-top: 50px;
+}
+.wellness-title hr {
+    width: 60%;
+}
+.wellness-divider {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.wellness-journel, .wellness-week {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.journel-img img, .wellness-week img {
+    width: 100%;
+}
+.wellness-journel hr {
+    margin-top: 50px;
+}
+.wellness-btn a {
+    font-family: 'Brandon_reg';
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: #fff;
+    background-color: #66a6db;
+    border-color: #66a6db;
+    padding: 20px 35px;
+}
+.wellness-btn a:hover {
+    background-color: #85b8e2;
+    border-color: #85b8e2;
+    text-decoration: none;
+}
+.btn-row{
+    margin-bottom: 70px;
+}
+iframe, .marcus-img img,  .approch-images img {
+    width: 100% !important;
+}
+
+/*------ Sallu Css ------*/
+
+body{
+  padding: 0;
+  margin: 0;
+  color: #4e4e56;
+}
+
+/*    Founder-Mission */
+.title-text{
+  padding-top: 50px;
+}
+.title-text-sec{
+  padding: 96px 0px;
+}
+.title-text h1{
+    font-size: 48px;
+    letter-spacing: 0px;
+    font-family: 'Brandon_reg';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: .5px;
+    text-transform: none;
+    line-height: 1.2em;
+    padding-bottom: 30px;
+}
+.title-text hr{
+  width: 50%;
+  color: rgba(78,78,86,.15);
+  padding-bottom: 50px;
+}
+.video-title{
+    padding-top: 25px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 0em;
+    color: #4e4e56;
+}
+
+
+/*    LIBRARY PAGE*/
+.tab-link{
+  padding-bottom: 30px;
+}
+.tab-link h2{
+  color: #4e4e56;
+  text-align: center;
+  text-transform: uppercase;
+}
+.tab-link p {
+  text-align: center;
+  font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #0d4372;
+}
+.tab-link a {
+  color: #0d4372;
+    text-decoration: none!important;
+}
+.tab-link a:hover {
+  color: #0d4372;
+}
+.recent-sem {
+  background-color: #F0F0F5;
+  padding-bottom: 30px;
+}
+.recent-sem h2{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-family: 'Brandon_reg';
+}
+.recent-sem hr{
+  width: 50%;
+  color: rgba(78,78,86,.15);
+  padding-bottom: 50px;
+}
+.recent-sem a {
+  color: #0d4372;
+  text-decoration: underline;
+  font-family: ff-tisa-web-pro;
+  font-weight: 600;
+}
+.recent-sem a:hover {
+  color: #0d4372;
+}
+.stoic{
+  padding-bottom: 50px;
+}
+.stoic hr{
+  width: 50%;
+  color: rgba(78,78,86,.15);
+  padding-bottom: 50px;
+} 
+.stoic h2{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.stoic a {
+  color: #0d4372;
+  text-decoration: underline;
+  font-family: ff-tisa-web-pro;
+  font-weight: 600;
+}
+.stoic a:hover {
+  color: #0d4372;
+}
+#guest{
+  background-color: #F0F0F5;
+}
+#rtwo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.video-summary{
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+}
+.active-row{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.active{
+  padding-bottom: 100px;
+}
+.img-title span{
+    font-family: 'Brandon_reg';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    color: #0d4372;
+    font-size: 25px;
+  }
+  .img-title p{
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+    text-align: center;   
+  }
+  .press-bt{
+    text-align: center;
+    padding-top: 10%;
+  }
+  .press-bt button{
+    padding: 10px 20px;
+    border: 0px solid #000;
+    background-color: #0d4372;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.1em;
+    font-family: 'ProximaNova-Regular';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .1em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 30px;
+}
+.press-bt button:hover {
+    color: #fff;
+}
+#press{
+  padding-bottom: 10%;
+}
+.members p{
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: center;
+    font-family: auto;
+}
+.members h3{
+    color: #0d4372!important; 
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 1.7;
+}
+.founding-member-sec{
+    padding: 50px 0px;
+}
+.founding-member-sec .row{
+    padding: 30px 0px;
+}
+.founding-member-title h1{
+    font-family: 'Brandon_reg';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: .5px;
+    line-height: 1.2em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4e4e56;
+    text-transform: uppercase;
+}
+.event-list{
+    font-family: brandon-grotesque;
+    padding: 100px 20px;
+}
+.event-list .row{
+    padding: 0px;
+    margin: 68px 0 0 0;
+}
+.event-list h4{
+    font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0 0 17px 0 !important;
+    padding: 0 !important;
+    font-size: 28px !important;
+    line-height: 1.2em !important;
+}
+.event-list a{
+    text-decoration: none;
+    color: #4e4e56;
+}
+.event-list a:hover{
+    text-decoration: none;
+    color: #4e4e56;
+}
+.event-list p{
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: #4e4e56;
+}
+.event-list .btn{
+    padding: 13px 26px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #66a6db;
+    border-color: #66a6db;
+}
+.event-list .ev-btn{
+    text-align: center;
+}
+
+.title-box{
+    padding: 20px;
+    background-color: #f0f0f5;
+    height: fit-content!important;
+}
+.title-box h4{
+    margin: 0 0 34px 0!important;
+    padding: 0;
+    font-size: 25px;
+}
+.title-box p{
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1em;
+    color: #4e4e56;
+}
+.title-box a{
+    text-decoration: none;
+    color: #4e4e56;
+    font-size: 18px;
+}
+.event-single .btn{
+    padding: 13px 26px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #66a6db;
+    border-color: #66a6db;
+}
+.event-single{
+    padding-top: 96px;
+}
+.event-single .ev-btn{
+    text-align: center;
+}
+.event-single-nav{
+    background: url(/img/aurelius-bronze.jpg);
+    background-size: cover;
+    min-height: 250px;
+    background-position: center;
+}
+.eve-sec{
+    margin: 170px 0 0 0;
+    padding-bottom: 96px;
+}
+
+.eve-sec p{
+    font-family: brandon-grotesque;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1em;
+    color: #4e4e56;
+}
+.eve-sec a{
+    text-decoration: none;
+    color: #4e4e56;
+    font-size: 18px;
+    font-family: brandon-grotesque;
+}
+.ev-bk .btn{
+    padding: 13px 26px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #66a6db;
+    border-color: #66a6db;
+}
